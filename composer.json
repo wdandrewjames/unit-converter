@@ -1,8 +1,19 @@
 {
+    "name": "wdandrewjames/unit-converter",
+    "type": "library",
+    "description": "A simple unit converter library for PHP",
+    "keywords": ["unit","converter","php unit converter"],
+    "homepage": "https://artisanlabs.co.uk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew James Rushton",
+            "email": "aj.rushton@icloud.com",
+            "homepage": "https://github.com/wdandrewjames/unit-converter",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {"Converter\\": "src/"}
-    },
-    "require": {
-        "monolog/monolog": "1.0.*"
     }
 }
