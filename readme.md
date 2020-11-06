@@ -2,6 +2,14 @@
 
 Unit Converter is a PHP library for dealing with converting units.
 
+## Installation
+
+Use composer to install.
+
+```composer
+composer require wdandrewjames/unit-converter
+```
+
 ## Usage
 
 Instantiate a new Converter Object, which requires an object which implements the ConverterTypeInterface. In this case we are using Mass class.
