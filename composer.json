@@ -15,5 +15,7 @@
     ],
     "autoload": {
         "psr-4": {"Converter\\": "src/"}
-    }
+    },
+    "require": {},
+    "minimum-stability": "dev"
 }
